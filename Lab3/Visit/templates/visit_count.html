@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Page for clock</title>
+</head>
+<body>
+
+<div class="django-box">
+<h1>this page is visit {{ visit_count }} times.</h1>
+<form action="{% url 'reset_counter' %}" method="dialog">
+    {% csrf_token %}
+    <button type="submit" style="color: white; background-color: #e53e3e; padding: 10px; border: none; cursor: pointer; border-radius: 4px;">
+        reset times in a base
+    </button>
+</form>
+</div>
+<div class="js-box">
+<button id="click-btn">click me!</button>
+<p>clicked: <span id="click-count">0</span></p>
+<button id="click-reset">reset times</button>
+<script>
+    let count = 0;
+    document.getElementById("click-btn").addEventListener("click", () => {
+    count++;
+    document.getElementById("click-count").textContent = count;
+    });
+    document.getElementById("click-reset").addElementListener("click", () => {
+    count = 0;
+    countDisplay.textContent = count;
+    });
+</script>
+</div>
+</body>
+</html>

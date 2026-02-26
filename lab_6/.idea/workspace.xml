@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="4baabfd3-2e69-4fe1-aff2-e661d81ba654" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/labolatorum6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/produkty/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/produkty/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/produkty/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/produkty/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/produkty/migrations/templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/produkty/migrations/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/produkty/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/produkty/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/produkty/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/produkty/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sklep_z_produktami/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sklep_z_produktami/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sklep_z_produktami/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sklep_z_produktami/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sklep_z_produktami/wsgi.py" afterDir="false" />
+=======
+    <list default="true" id="12c08ba2-d70d-473e-874d-d9ff0a496c23" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/PythonProject1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/templates/books/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/templates/books/book_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/templates/books/book_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/templates/books/book_list.html" afterDir="false" />
+>>>>>>> dca61f3c8b1b0ad9a773abaf33bb09702597d827
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+<<<<<<< HEAD
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Martyna897"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Martyna897/laboratoria.git",
+    "accountId": "b2bfa1fe-cb44-45c6-b842-011c5b2077d7"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3A6RLU9Am5grvADsxUiSqOjSR54" />
+=======
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="3A2LlaN8RBSYTfG3dwA0QYjyahr" />
+>>>>>>> dca61f3c8b1b0ad9a773abaf33bb09702597d827
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+<<<<<<< HEAD
+=======
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\PythonProject1\ksiegozbior_project" />
+      <recent name="C:\Users\PC\Desktop\PythonProject1\books" />
+      <recent name="C:\Users\PC\Desktop\PythonProject1" />
+      <recent name="C:\Users\PC\Desktop\PythonProject1\books\templates" />
+      <recent name="C:\Users\PC\Desktop\PythonProject1\books\migrations" />
+    </key>
+  </component>
+>>>>>>> dca61f3c8b1b0ad9a773abaf33bb09702597d827
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="4baabfd3-2e69-4fe1-aff2-e661d81ba654" name="Changes" comment="" />
+      <created>1771910977267</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771910977267</updated>
+=======
+      <changelist id="12c08ba2-d70d-473e-874d-d9ff0a496c23" name="Changes" comment="" />
+      <created>1771785870834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771785870834</updated>
+>>>>>>> dca61f3c8b1b0ad9a773abaf33bb09702597d827
+    </task>
+    <servers />
+  </component>
+</project>

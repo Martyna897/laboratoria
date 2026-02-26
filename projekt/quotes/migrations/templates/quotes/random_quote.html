@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Projekt</title>
+</head>
+<body>
+{% extends 'quotes/base.html' %}
+
+{% block content %}
+<div class="row justify-content-center mt-5">
+    <div class="col-md-8 text-center">
+        {% if quote %}
+            <div class="card shadow-lg border-0 p-5 bg-white">
+                <div class="card-body">
+                    <h1 class="display-4 text-primary">"</h1>
+                    <p class="lead fs-2 italic mb-4">{{ quote.content }}</p>
+                    <footer class="blockquote-footer fs-4">
+                        <cite title="Source Title">{{ quote.author }}</cite>
+                    </footer>
+                </div>
+                <div class="card-footer bg-transparent border-0 mt-3">
+                    <a href="{% url 'random_quote' %}" class="btn btn-primary btn-lg px-5 shadow-sm">
+                        🔄 Losuj ponownie
+                    </a>
+                </div>
+            </div>
+        {% else %}
+            <div class="alert alert-info shadow">
+                <h3>Baza cytatów jest pusta!</h3>
+                <p>Bądź pierwszy i dodaj coś inspirującego.</p>
+                <a href="{% url 'add_quote' %}" class="btn btn-info">Dodaj cytat</a>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% end block %}
+</body>
+</html>

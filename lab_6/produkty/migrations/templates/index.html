@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Sklep</title>
+</head>
+<body>
+
+    <h1>Lista Produktów</h1>
+
+    <button id="fetch-btn">Pobierz produkty</button>
+
+    <ul id="product-list"></ul>
+
+    <script>
+        document.getElementById('fetch-btn').addEventListener('click', function() {
+            const category = "elektronika";
+
+            fetch(`/api/products/?category=${category}`)
+                .then(response => {
+                    if (!response.ok) throw new Error("Błąd sieci!");
+                    return response.json();
+                })
+                .then(data => {
+                    const listElement = document.getElementById('product-list');
+                    listElement.innerHTML = "";
+
+                    data.products.forEach(product => {
+                        const li = document.createElement('li');
+                        li.textContent = `${product.name} - ${product.price} PLN`;
+                        listElement.appendChild(li);
+                    });
+                })
+                .catch(error => console.error('Błąd:', error));
+        });
+    </script>
+</body>
+</html>

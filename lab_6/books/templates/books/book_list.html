@@ -1,0 +1,21 @@
+<h2>Zbiór książek</h2>
+<form method="get">
+    <input type="text" name="author" placeholder="Filtruj po autorze..." value="{{ request.GET.author }}">
+    <button type="submit">Szukaj</button>
+    <a href="{% url 'book-list' %}">Wyczyść</a>
+</form>
+
+<hr>
+<a href="{% url 'book-add' %}">➕ Dodaj nową książkę</a>
+
+<ul>
+    {% for book in books %}
+    <li>
+        <strong>{{ book.title }}</strong> - {{ book.author }} ({{ book.publication_date }})
+        <a href="{% url 'book-edit' book.pk %}">Edytuj</a> |
+        <a href="{% url 'book-delete' book.pk %}">Usuń</a>
+    </li>
+    {% empty %}
+    <li>Brak książek w bazie.</li>
+    {% endfor %}
+</ul>
